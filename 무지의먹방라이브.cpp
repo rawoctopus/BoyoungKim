@@ -2,7 +2,6 @@
 // 풀이 2 -> 검색해보고 응용해서 구현해봄
 
 // 풀이 2
-
 #include <string>
 #include <vector>
 #include <algorithm>
