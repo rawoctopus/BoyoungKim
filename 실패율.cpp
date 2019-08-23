@@ -10,7 +10,7 @@ struct ResSet {
     double rate;
 };
 
-// 실패율 큰것부터 정렬
+// 오름차순 정렬
 bool comp(ResSet a, ResSet b) {
     return a.rate < b.rate;
 }
