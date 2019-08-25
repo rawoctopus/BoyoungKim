@@ -22,7 +22,6 @@ vector<string> solution(vector<string> record) {
             userInfo[uid] = nickname;
             log.push_back({uid, "님이 들어왔습니다."});
         }
-
         else if(record[i].find("Leave") == 0) {
             uid = record[i].substr(6, record[i].substr(6).find(" "));
             log.push_back({uid, "님이 나갔습니다."});
